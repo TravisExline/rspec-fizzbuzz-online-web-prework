@@ -3,5 +3,10 @@
 def fizzbuzz(numb)
   if numb % 3 == 0
     return "Fizz"
+  elsif numb % 5 == 0
+    return "Buzz"
+  elsif (numb % 5 == 0) && (numb % 3 == 0)
+    return "FizzBuzz"
+  else return "nil"
   end
 end
